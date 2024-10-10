@@ -13,35 +13,6 @@ const EmailSection = () => {
 
     setEmailSubmitted(true)
 
-    // const data = {
-    //   email: e.target.value,
-    // };
-  
-    // const JSONdata = JSON.stringify(data);
-    // const endpoint = "/api/send";
-  
-    // const options = {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSONdata,
-    // };
-  
-    // try {
-    //   const response = await fetch(endpoint, options);
-  
-    //   if (response.ok) {
-    //     const resData = await response.json();
-    //     console.log("Message sent successfully.");
-    //     setEmailSubmitted(true);
-    //   } else {
-    //     console.error("Failed to send message:", response.status);
-    //   }
-    // } catch (error) {
-    //   console.error("An error occurred:", error);
-    // }
-
     e.target.reset();
   };
   
